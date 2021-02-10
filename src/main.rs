@@ -6,7 +6,6 @@ extern crate pretty_env_logger;
 fn main() {
     pretty_env_logger::init();
     let args: Vec<String> = env::args().collect();
-    println!("Args: {:?}", args);
 
     if args.len() != 3 {
         error!("Takes two args: input_proto_filepath output_dirpath");
