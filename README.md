@@ -6,3 +6,10 @@ Rust Protobuf Binding Generator
 2. Doesn't generate bindings for Protobuf `service`s
 
 To fix the second issue we use `tonic-build`, which is a wrapper around `prost-build` to generate traits, and to fix the second issue we have this repo which is a tiny CLI wrapped around `tonic-build`.
+
+Usage
+-----
+Install the CLI to your local machine:
+```
+cargo install --path .
+```

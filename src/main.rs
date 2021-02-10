@@ -1,9 +1,7 @@
 use std::{env, fs::canonicalize, process::exit};
 use anyhow::{Context, Result};
 use log::error;
-
 extern crate pretty_env_logger;
-#[macro_use] extern crate log;
 
 fn main() {
     pretty_env_logger::init();
